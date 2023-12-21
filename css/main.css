@@ -1,0 +1,42 @@
+.gallery {
+    padding: 20px;
+    border: 2px solid green;
+    width: 500px;
+    margin: 10px auto;
+    height: 370px;
+}
+
+.big {
+    background-image: url("../images/gallery/loader.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 500px;
+    height: 281px;
+    border: 1px solid #cccccc;
+}
+
+.small {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.small a img {
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+.button:hover {
+    cursor: pointer;
+}
