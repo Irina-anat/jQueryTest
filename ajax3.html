@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/ajax3.js"></script>
+</head>
+<body>
+    <p><a class="back-link" href="index.html">Go back</a></p>
+    <style>
+        body{
+            padding: 30px;
+            font-size: 18px;
+            position: relative;
+        }
+        button{
+            color: green;
+            border: 2px solid green;
+            background: whitesmoke;
+            padding: 10px 25px;
+            border-radius: 5px;
+        }
+        .loading{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            z-index: 3;
+            background-color: green;
+            font-size: 30px;
+            display: none;
+        }
+    </style>
+   <button class="request">Ajax request</button>
+   <button class="broken">Broken request</button>
+   <button class="start">Start loading</button>
+   <div class="loading">Loading</div>
+</body>
+</html>
