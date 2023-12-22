@@ -21,5 +21,4 @@ $(document).ready(function () {
         'border':'2px solid green'
     })
 })
-
 });
