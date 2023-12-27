@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
   $('.slider').slick({
   infinite: true,
   slidesToShow: 3,
